@@ -23,3 +23,6 @@ FiveM script improving immersion by simulating bike chains rusting and popping o
 ### <b>[📌]</b> Notes:
 - **Remember this is a C# resource so even if resource monitor shows high CPU usage in reality its not. Read more [here](https://forum.cfx.re/t/lua-vs-c/644237/5), [here](https://forum.cfx.re/t/c-performance-issue/4839267/3) and [here](https://forum.cfx.re/t/c-question-regarding-resource-usage/5162254/2) If this still does not convince you can consider using [mono v2](https://github.com/thorium-cfx/mono_v2_get_started) by replacing CitizenFX libraries and compiling it by yourself.**
 - Used LUA for 3rd eye(qb-target) usage, got not enough time to figure out LUA exports work into C#.
+
+### <b>[⚠️]</b> Bugs:
+- Due to fivem re-using network id's, new spawned bike can use already despawned bike network id and its data in result causing chain out of place disallowing player movement.
