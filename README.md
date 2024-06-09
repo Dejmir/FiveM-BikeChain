@@ -25,4 +25,4 @@ FiveM script improving immersion by simulating bike chains rusting and popping o
 - Used LUA for 3rd eye(qb-target) usage, got not enough time to figure out LUA exports work into C#.
 
 ### <b>[⚠️]</b> Bugs:
-- Due to fivem re-using network id's, new spawned bike can use already despawned bike network id and its data in result causing chain out of place disallowing player movement.
+- Due to fivem re-using network id's, new spawned bike can use already despawned bike network id and its data in result causing chain out of place after spawning.
