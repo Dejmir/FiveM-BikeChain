@@ -1,0 +1,28 @@
+{
+    "AnimationSpraying": [ "weed_spraybottle_crouch_base_inspector", "anim@amb@business@weed@weed_inspecting_lo_med_hi@" ], //Animation name and dictionary
+    "AnimationPuttingChain": [ "car_bomb_mechanic", "mp_car_bomb" ], //Animation name and dictionary
+
+    "SprayProp": "prop_spraygun_01", //Prop for the WD40
+    "SprayDefaultAmount": 30, //Default amount of spray in the bottle
+    "SprayConsume": 1, //Spray consuming per 10 popping rate
+
+    "SprayingTime": [ 6, 12 ], //Min max seconds for spraying
+    "PuttingChainTime": [ 15, 25 ], //Min max seconds for putting chain back
+
+    "DefaultPoppingRate": 5, //Percentage chance of breaking    100 = 100%   1 = 1% etc.
+    "PoppingCheckInterval": 120, //Seconds interval checking for the popping
+    "PoppingIncreasingInterval": 60, //Seconds interval for increasing popping rate
+    "IncreasePoppingRate": [ 1, 2 ], //Min max value to increase the popping rate
+    "SpraySuspendPoppingIncreasing": 300, //Seconds value for which increasing popping rate is disabled after spraying
+
+    "RustingNotificationWhen": 60, //Minimum rusting value to show the notification
+
+    "Notifications": {
+        "Rusting": "The chain is beginning to rust and is very likely to pop, please spray the chain with WD40 to decrease the chance of the chain popping.",
+        "ChainOut": "The chain has popped, please spray the chain with WD40 and put the chain back in place!",
+        "ChainBack": "The chain is on the place.",
+        "ChainSpray": "You have sprayed the chain.",
+        "ChainSprayNotEnough": "You have sprayed the chain but it was not enough.",
+        "NoSpray": "You don't have spray in the bottle!"
+    }
+}
